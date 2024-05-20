@@ -1,8 +1,8 @@
 const { exec } = require('child_process');
 
 // Replace these with your own details
-const remoteRepo = 'https://<USERNAME>:<TOKEN>@github.com/<USERNAME>/<REPOSITORY>.git';
-const branch = 'main';
+const remoteRepo = "https://github.com/NunezBrian/Logo-Imager.git"
+const branch = 'myBranch';
 
 const commands = [
   'git add .',
